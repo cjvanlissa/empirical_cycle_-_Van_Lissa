@@ -1,0 +1,15 @@
+{
+	"resource_type": "model",
+    "keywords": ["FAIRtheory", "empirical cycle", "philosophy of science"],
+    "communities": [
+        {"identifier": "fairtheory"}
+    ],
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.1515/9783112313121",
+            "relation": "References",
+            "resource_type": "publication-book"
+        }
+    ]	
+}

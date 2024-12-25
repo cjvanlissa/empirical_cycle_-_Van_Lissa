@@ -1,5 +1,10 @@
 {
-	"resource_type": "model",
+	"resource_type": {
+          "id": "model",
+          "title": {
+            "en": "model"
+          }
+        },
     "keywords": ["FAIRtheory", "empirical cycle", "philosophy of science"],
     "communities": [
         {"identifier": "fairtheory"}

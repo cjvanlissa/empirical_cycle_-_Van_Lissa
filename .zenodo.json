@@ -1,8 +1,9 @@
 {
-	"resource_type": {
-          "id": "model",
-          "title": {
-            "en": "model"
-          }
-        }
+    "resource_type": {
+      "id": "model",
+      "title": {
+        "de": "Modell",
+        "en": "Model"
+      }
+    }
 }

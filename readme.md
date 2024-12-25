@@ -4,7 +4,7 @@
 
 This is a FAIR implementation of De Groot and Spiekerman's "empirical cycle" theory.
 
-# How to Use the Theory
+# Interoperability
 
 The theory is implemented in the DOT language for describing graphs.
 

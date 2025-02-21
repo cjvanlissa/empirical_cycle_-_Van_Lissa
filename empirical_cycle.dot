@@ -1,13 +1,13 @@
 digraph {
-  observation;
-  induction;
-  deduction;
-  testing;
-  evaluation;
+  theory;
+  prediction;
+  data;
+  test;
+  results;
 
-  observation -> induction;
-  induction -> deduction;
-  deduction -> testing;
-  testing -> evaluation;
-  evaluation -> observation; 
+  theory -> prediction [label="deduction"];
+  prediction -> test [label = "implement inferential procedure"];
+  data -> results;
+  test -> results;
+  results -> theory [label="interpretation and generalization"];
 }

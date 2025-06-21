@@ -1,13 +1,13 @@
 digraph {
-  theory;
-  prediction;
-  data;
-  test;
-  results;
+  theory [label="FAIR theory"];
+  prediction [label="preregistered, ideally machine-readable prediction"];
+  data [label="FAIR data"];
+  test [label="reproducible analysis pipeline"];
+  results [label="preprint, reproducible research archive"];
 
-  theory -> prediction [label="deduction"];
-  prediction -> test [label = "implement inferential procedure"];
-  data -> results;
-  test -> results;
-  results -> theory [label="interpretation and generalization"];
+  theory -> prediction [label="derive hypothesis, refer to specific fair theory"];
+  prediction -> test [label = "implement inferential procedure as code"];
+  data -> results [label="apply preregistered analysis to data to obtain results"];
+  test -> results [label = "write preprint, create research archive"];
+  results -> theory [label="interpret findings and modify fair theory"];
 }
